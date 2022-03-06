@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd13a81bfead10438437c574a66ab83, type: 3}
+  m_Name: ACRData
+  m_EditorClassIdentifier: 
+  gunName: ACR
+  weaponType: 0
+  droppablePrefab: {fileID: 1734957640529128, guid: 1357eedac1f35af4e9facf5594949974, type: 3}
+  weight: 4
+  size: 0.828
+  meleeDamage: 50
+  meleeForce: 20
+  primaryFireMode: 1
+  secondaryFireMode: 3
+  primaryRateOfFire: 800
+  secondaryRateOfFire: 700
+  range: 50
+  bulletsPerShoot: 1
+  bulletsPerBurst: 3
+  affectedLayers:
+    serializedVersion: 2
+    m_Bits: 17
+  ammoType: {fileID: 11400000, guid: e2135fd18f6096244969ef2a2dd42ebd, type: 2}
+  reloadMode: 0
+  roundsPerMagazine: 30
+  hasChamber: 1
+  maximumSpread: 1.5
+  baseAccuracy: 0.55
+  hipAccuracy: 0.7
+  aimAccuracy: 1
+  decreaseRateByWalking: 0.7
+  decreaseRateByShooting: 1
